@@ -4,9 +4,7 @@ namespace NotificationChannels\WhatsApp;
 
 class Component
 {
-    /**
-     * Currency code as defined in ISO 4217.
-     */
+    
     public static function currency(float $amount, string $code = 'EUR'): Component\Currency
     {
         return new Component\Currency($amount, $code);
