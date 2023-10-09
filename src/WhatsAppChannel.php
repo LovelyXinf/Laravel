@@ -10,9 +10,7 @@ use NotificationChannels\WhatsApp\Exceptions\CouldNotSendNotification;
 
 class WhatsAppChannel
 {
-    /*
-     * HTTP WhatsApp Cloud API wrapper
-     */
+    
     private WhatsAppCloudApi $whatsapp;
 
     public function __construct(WhatsAppCloudApi $whatsapp)
